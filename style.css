@@ -1,0 +1,23 @@
+h1{
+    background-color: lightgreen;
+    color: blueviolet;
+}
+
+body{
+    background-color: pink;
+}
+
+p{
+   color: blueviolet;
+}
+
+button{
+    background-color: aqua;
+    color: black;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Hover shadow */
+    cursor: pointer;
+}

@@ -1,0 +1,20 @@
+h1{
+    background-color: pink;
+    color: cornflowerblue;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+
+form{
+    background-color: pink;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+body{
+    background-color: black;
+}

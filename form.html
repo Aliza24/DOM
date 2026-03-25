@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1>this is form page!</h1>
+    <form action="submit.html" method="post" enctype="multipart/form-data">
+
+        <!-- Name -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+      
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+      
+        <!-- Phone -->
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+      
+        <!-- Gender -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+      
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+      
+        <!-- Address -->
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" rows="3" cols="30"></textarea><br><br>
+      
+        <!-- City -->
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city"><br><br>
+      
+        <!-- State -->
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state"><br><br>
+      
+        <!-- Country -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+          <option value="">--Select Country--</option>
+          <option value="india">India</option>
+          <option value="usa">USA</option>
+          <option value="uk">UK</option>
+          <option value="australia">Australia</option>
+        </select><br><br>
+      
+        <!-- Pincode -->
+        <label for="pincode">Pincode:</label>
+        <input type="text" id="pincode" name="pincode"><br><br>
+      
+        <!-- Skills (Checkbox) -->
+        <label>Skills:</label><br>
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="js" name="skills" value="JavaScript">
+        <label for="js">JavaScript</label><br>
+        <input type="checkbox" id="python" name="skills" value="Python">
+        <label for="python">Python</label><br><br>
+      
+        <!-- Upload File -->
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume"><br><br>
+      
+        <!-- Message -->
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+      
+        <!-- Submit -->
+        <button type="submit">Submit</button>
+      
+      </form>
+      
+</body>
+</html>
